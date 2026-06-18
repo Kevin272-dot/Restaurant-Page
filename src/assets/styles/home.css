@@ -1,0 +1,98 @@
+#content {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  background-image: url("../images/interior.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+}
+
+.hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #f7f5f0;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+.home-story {
+  background-color: rgba(251, 249, 246, 0.9);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  color: #1a1a1a;
+  padding: 90px 40px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.story-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--mainColor);
+  margin-top: 0;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.main-story {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #333333;
+}
+
+.home-ambiance {
+  /* Dark luxury overlay */
+  background-color: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  color: #f7f5f0;
+  padding: 100px 40px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.amb-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.amb-story {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.8);
+}
